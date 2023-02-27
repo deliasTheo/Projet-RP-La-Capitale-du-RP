@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Path: css/style.css */
+img {
+    width: 5%;
+    height: auto;
+}
+
+nav {
+
+    background-color: #fff;
+    color: #000;
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+nav>h1 {
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+
+#navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.navItem {
+    padding-left: 6%;
+    font-size: 1.2em;
+    color: #e8783a;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../media/background_paris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: lexend, sans-serif;
+
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainContent>section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+#mainContent>section>div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 2% 2%;
+}
+#mainContent>section>div>h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: bolder;
+}
+#mainContent>section>div>h3 {
+    font-weight: bold;
+}
+#mainContent>section>div>#rpPart {
+    color: #e8783a;
+    margin-left: 10px;
+}
+#mainContent>section>p {
+    font-size: 1.5em;
+    width: 35%;
+    margin: 2% 2%;
+}
+
+
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 1% 2% 1% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
