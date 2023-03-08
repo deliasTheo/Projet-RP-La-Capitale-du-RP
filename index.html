@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+  <script type="text/javascript" src="js/carrousel.js"></script>
 
 </head>
 
@@ -28,15 +29,31 @@
     </ol>
   </nav>
 
-  <main id="mainContent">
-    <section>
+  <main>
+    <img onclick="slideGauche()" id="flecheGauche_carrousel" alt="flecheGauche" src="media/fleche-droite.png"/>
+    <img onclick="slideDroite()" id="flecheDroite_carrousel" alt="flecheDroite" src="media/fleche-droite.png"/>
+
+    <section id="bienvenu">
       <h3>BIENVENUE SUR</h3>
       <div>
         <h2>LA CAPITALE</h2>
         <h2 id="rpPart">RP</h2>
       </div>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </section>
+    <section id="discord">
+      <h3>NOTRE SERVEUR</h3>
+      <h2>DISCORD</h2>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting  industry.</p>
       <a href="https://discord.gg/8Z7Y4Z" class="button">Rejoindre le Discord</a>
+    </section>
+    <section id="reglement">
+      <h3>VOICI NOTRE</h3>
+
+      <h2>REGLEMENT</h2>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
     </section>
   </main>
   

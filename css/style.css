@@ -47,7 +47,10 @@ table {
     border-spacing: 0;
 }
 
+
+
 /* Path: css/style.css */
+
 img {
     width: 5%;
     height: auto;
@@ -82,51 +85,57 @@ nav>h1 {
 }
 
 body {
-    background-image: url("../media/background_paris.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+
     font-family: lexend, sans-serif;
 
 }
-
-#mainContent {
+main {
+    background-image: url("../media/background_paris.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#mainContent>section {
+main {
+
+}
+
+main>section {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    margin-top: 16%;
+    margin-bottom: 16%;
+
 
 }
-#mainContent>section>div {
+main>section>div {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 2% 2%;
+
 }
-#mainContent>section>div>h2 {
+main>section h2 {
     font-size: 2.5em;
     color: #fff;
     font-weight: bolder;
 }
-#mainContent>section>div>h3 {
+main>section>h3 {
     font-weight: bold;
+    margin-bottom: 35px;
 }
-#mainContent>section>div>#rpPart {
+main>section>div>#rpPart {
     color: #e8783a;
     margin-left: 10px;
 }
-#mainContent>section>p {
+main>section>p {
     font-size: 1.5em;
-    width: 35%;
+    max-width: 35%;
     margin: 2% 2%;
 }
-
-
 footer {
     background-color: #fff;
     color: #000;
@@ -136,3 +145,23 @@ footer {
     align-items: center;
     justify-content: center;
 }
+#flecheGauche_carrousel{
+    position: absolute;
+    width: 70px;
+    top:53%;left:5%;
+    rotate:180deg;
+}
+#flecheDroite_carrousel{
+    position: absolute;
+    width: 70px;
+    top:53%;right:5%;
+}
+#discord h2,#reglement h2{
+    color: #e8783a;
+    font-weight: bold;
+}
+#reglement, #discord{
+    position: absolute;
+    visibility: hidden;
+}
+
